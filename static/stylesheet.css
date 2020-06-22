@@ -1,0 +1,96 @@
+/*
+* By M.K
+* 6/22/2020
+ */
+
+html, body {
+	background-image: url('bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+  }
+  
+  h1{
+	color: rgb(255, 5, 5);
+	font-size: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+  }
+
+  table {
+	border-collapse: collapse;
+	flex-direction: column;
+	justify-content: center;
+	
+  }
+
+  td {
+	border: 2px solid rgb(0, 0, 0);
+  }
+
+  input {
+	color: #ff7700;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	font-size: 27px;
+	background-color: #fcfcfc;
+	outline: none;
+  }
+
+ .space {
+	margin-top: 10%;
+ }
+
+ .top_border {
+	 border-top: 3.5px solid #ec971f;
+ }
+
+ .bottom_border {
+	 border-bottom: 3.5px solid #ec971f;
+ }
+
+ .right_border {
+	border-right: 3.5px solid #ec971f;
+ }
+
+ .left_border {
+	border-left: 3.5px solid #ec971f;
+ }
+  
+ .btn {
+	background-color: rgb(8, 189, 180);
+	transition: 0.3s;
+	cursor:pointer;
+	position:absolute;
+	text-align: center;
+	height: 100px;
+	width: 200px;
+	box-shadow: -3px 3px rgb(245, 158, 17), -2px 2px rgb(245, 158, 17), -1px 1px rgb(245, 158, 17);
+	border-radius: 10%;
+	border: none;
+	outline: none;
+
+ }
+
+ .btn-text {
+	color: red;
+	vertical-align: middle;
+	padding-top: 0.2em;
+	font-size: 40px;
+ }
+
+ .btn:hover {
+	background-color: rgb(62,142,65)
+ }
+
+ .btn:active {
+	background-color: rgb(62,142,65);
+ 	box-shadow: 0 5px rgb(102,102,102);
+    transform: translateY(4px);
+    border: none;
+    outline: none;
+ }
